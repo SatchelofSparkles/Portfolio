@@ -1,0 +1,49 @@
+table EmissionsPerCapita
+	lineageTag: cb3fbe5a-9ac8-4399-82b7-fc6663a97971
+
+	column Code
+		dataType: string
+		isHidden
+		lineageTag: a072f533-eddd-434c-b7da-d627cdf3b7c4
+		summarizeBy: none
+		sourceColumn: Code
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 8c6bf973-c78b-4bd0-acf6-536a7914ffd0
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Annual CO₂ emissions (per capita)'
+		dataType: double
+		lineageTag: 2c04f2a0-3fad-4f8a-a32a-457e1943ce64
+		summarizeBy: sum
+		sourceColumn: Annual CO₂ emissions (per capita)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition EmissionsPerCapita = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\gjeri\Desktop\PowerBI Projects\Emissions analysis\co-emissions-per-capita\co-emissions-per-capita.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}, {"Annual CO₂ emissions (per capita)", type number}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Entity"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Removed Columns", each ([Code] <> null and [Code] <> "" and [Code] <> "OWID_WRL"))
+				in
+				    #"Filtered Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

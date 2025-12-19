@@ -1,0 +1,38 @@
+table WorldPop
+	lineageTag: fcc85e41-2503-4c2e-a4b0-561fb2d310e7
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 4f474667-c7d5-4d65-861d-5b01b4ead95c
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Population (historical)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 94ce3b2e-abb9-4e4b-8549-6158193b55d9
+		summarizeBy: sum
+		sourceColumn: Population (historical)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition WorldPop = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\gjeri\Desktop\PowerBI Projects\Emissions analysis\population\population.csv"),[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}, {"Population (historical)", Int64.Type}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([Year] <> -10000 and [Year] <> -9000 and [Year] <> -8000 and [Year] <> -7000 and [Year] <> -6000 and [Year] <> -5000 and [Year] <> -4000 and [Year] <> -3000 and [Year] <> -2000 and [Year] <> -1000 and [Year] <> 0 and [Year] <> 100 and [Year] <> 200 and [Year] <> 300 and [Year] <> 400 and [Year] <> 500 and [Year] <> 600 and [Year] <> 700 and [Year] <> 800 and [Year] <> 900 and [Year] <> 1000 and [Year] <> 1100 and [Year] <> 1200 and [Year] <> 1300 and [Year] <> 1400 and [Year] <> 1500 and [Year] <> 1600 and [Year] <> 1700 and [Year] <> 1710 and [Year] <> 1720 and [Year] <> 1730 and [Year] <> 1740)),
+				    #"Filtered Rows1" = Table.SelectRows(#"Filtered Rows", each ([Code] = "OWID_WRL")),
+				    #"Removed Columns" = Table.RemoveColumns(#"Filtered Rows1",{"Code", "Entity"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

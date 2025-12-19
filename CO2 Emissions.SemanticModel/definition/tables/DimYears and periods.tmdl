@@ -1,0 +1,59 @@
+table 'DimYears and periods'
+	lineageTag: 01cb9de6-d1af-44bd-b145-7212b80215be
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: d16dbf7d-3ce7-499d-bb54-30f5d9e360a3
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column Century
+		dataType: string
+		lineageTag: 3643fe96-9a33-4785-bb62-4b00b7f74322
+		summarizeBy: none
+		sourceColumn: Century
+
+		annotation SummarizationSetBy = Automatic
+
+	column Period
+		dataType: string
+		lineageTag: b63b664d-418e-49c8-86cc-dc77ac56a051
+		summarizeBy: none
+		sourceColumn: Period
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Time Periods'
+		lineageTag: 7984f9b6-8f41-4f5a-87c4-1c23c6f63251
+
+		level Century
+			lineageTag: e858772d-fd9a-4569-be3c-650fb16a75ad
+			column: Century
+
+		level Period
+			lineageTag: 75ab775a-5a2b-40ff-8fe7-ecb17a051113
+			column: Period
+
+		level Year
+			lineageTag: dc7aad54-45d3-4f44-bfbd-3fed82fa9b47
+			column: Year
+
+	partition 'DimYears and periods' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\gjeri\Desktop\PowerBI Projects\Emissions analysis\Years and periods.csv"),[Delimiter=",", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Year", Int64.Type}, {"Century", type text}, {"Period", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

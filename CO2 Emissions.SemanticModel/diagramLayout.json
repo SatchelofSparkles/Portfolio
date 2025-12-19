@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 140.78555784013426,
+            "y": 464.0795944706544
+          },
+          "nodeIndex": "regions",
+          "nodeLineageTag": "a987b15b-1c4a-48f5-824d-cbe2da620203",
+          "size": {
+            "height": 222.92213667374722,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 211.9847735636298
+          },
+          "nodeIndex": "EmissionsByCountry",
+          "nodeLineageTag": "db1bf882-ebbe-4525-a03b-8358bf2f70e3",
+          "size": {
+            "height": 226.39843144699103,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 67.108316198993236,
+            "y": 0
+          },
+          "nodeIndex": "DimCountries",
+          "nodeLineageTag": "7e9dd584-b4c2-4104-b0b4-8000ca552e51",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 805.05306298043638,
+            "y": 374.0587155073602
+          },
+          "nodeIndex": "EmissionsPerCapita",
+          "nodeLineageTag": "cb3fbe5a-9ac8-4399-82b7-fc6663a97971",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 500.99042609055374,
+            "y": 521.15918894130891
+          },
+          "nodeIndex": "GdpPerCapita",
+          "nodeLineageTag": "f64f6559-4d13-4cc5-8de4-6e2535492267",
+          "size": {
+            "height": 212.28838410359629,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 1086.4875998270918,
+            "y": 475.94474678144309
+          },
+          "nodeIndex": "WorldwideEmissions",
+          "nodeLineageTag": "25218946-f02e-4f53-9c78-c9d619d9fe9f",
+          "size": {
+            "height": 350.8233943842003,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1457.7133470408055,
+            "y": 517.447573044905
+          },
+          "nodeIndex": "WorldPop",
+          "nodeLineageTag": "fcc85e41-2503-4c2e-a4b0-561fb2d310e7",
+          "size": {
+            "height": 169.04741045351233,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 679.61160155617426,
+            "y": 0
+          },
+          "nodeIndex": "DimYears and periods",
+          "nodeLineageTag": "01cb9de6-d1af-44bd-b145-7212b80215be",
+          "size": {
+            "height": 264.88037874715894,
+            "width": 234
+          },
+          "zIndex": 7
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 77.9586328259152,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

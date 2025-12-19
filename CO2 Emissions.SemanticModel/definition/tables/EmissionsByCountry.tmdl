@@ -1,0 +1,75 @@
+table EmissionsByCountry
+	lineageTag: db1bf882-ebbe-4525-a03b-8358bf2f70e3
+
+	measure RankedTotal =
+			
+			RANK(
+			    DENSE,
+			    ALLSELECTED('DimCountries'[Country]),
+			    ORDERBY(SUM('EmissionsByCountry'[Annual CO₂ emissions]), DESC))
+		formatString: 0
+		lineageTag: 29fd3b8f-6791-4db5-a687-4b176300c04f
+
+	column Code
+		dataType: string
+		isHidden
+		lineageTag: f0ab7cc1-35b6-407d-9564-0c6242412580
+		summarizeBy: none
+		sourceColumn: Code
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: a614ad5a-1974-4e8e-b24b-b65fabb3ea8d
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Annual CO₂ emissions'
+		dataType: double
+		lineageTag: cfad690c-0403-458a-bdcf-7d116d753107
+		summarizeBy: none
+		sourceColumn: Annual CO₂ emissions
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column EmissionsToDate =
+			var CurrentYear = EmissionsByCountry[Year]
+			                        var WhichCountry = EmissionsByCountry[Code]
+			                        var FilteredTable = FILTER(EmissionsByCountry, EmissionsByCountry[Year] <= CurrentYear
+			                        && EmissionsByCountry[Code] = WhichCountry)
+			
+			                        return
+			
+			                        CALCULATE(Sum(EmissionsByCountry[Annual CO₂ emissions]), FilteredTable)
+		lineageTag: 5f7df0f6-089d-45f7-bf32-177ea195fbf4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition EmissionsByCountry = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\gjeri\Desktop\PowerBI Projects\Emissions analysis\annual-co2-emissions-per-country\annual-co2-emissions-per-country.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}, {"Annual CO₂ emissions", type number}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([Code] <> null and [Code] <> "" )),
+				    #"Removed Columns" = Table.RemoveColumns(#"Filtered Rows",{"Entity"}),
+				    #"Filtered Rows1" = Table.SelectRows(#"Removed Columns", each ([Code] <> "OWID_WRL"))
+				in
+				    #"Filtered Rows1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

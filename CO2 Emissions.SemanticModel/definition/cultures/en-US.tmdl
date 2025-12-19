@@ -1,0 +1,3989 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "emission_by_country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsByCountry"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "emission by country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmissionsByCountry": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "emission": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "emission by nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "emission by location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "production by country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "emanation by country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "secretion by country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "radiation by country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "release by country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "discharge by country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "emission_by_country.code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsByCountry",
+			          "ConceptualProperty": "Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "emission_by_country.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsByCountry",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "emission_by_country.annual_CO_emission": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsByCountry",
+			          "ConceptualProperty": "Annual CO₂ emissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "annual CO₂ emission": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "annual co₂ production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ emanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ secretion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ radiation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ release": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "annual co₂ discharge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "emission_by_country.emission_to_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsByCountry",
+			          "ConceptualProperty": "EmissionsToDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "emission to date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmissionsToDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "emission": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "emission to moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "emission to period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "production to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "emanation to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "secretion to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "radiation to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "release to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "discharge to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "emission_by_country.ranked_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsByCountry",
+			          "ConceptualProperty": "RankedTotal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ranked total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RankedTotal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ranked aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ranked overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimCountries"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimCountries": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dim nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dim location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "dim_country.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimCountries",
+			          "ConceptualProperty": "Country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "dim_country.code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimCountries",
+			          "ConceptualProperty": "Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "dim_country.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimCountries",
+			          "ConceptualProperty": "Region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "emission_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsPerCapita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "emission per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmissionsPerCapita": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "production per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "emanation per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "secretion per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "radiation per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "release per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "discharge per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "emission_per_capita.code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsPerCapita",
+			          "ConceptualProperty": "Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "emission_per_capita.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsPerCapita",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "emission_per_capita.annual_CO_emissions_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmissionsPerCapita",
+			          "ConceptualProperty": "Annual CO₂ emissions (per capita)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "annual CO₂ emissions (per capita)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "annual CO₂ emission (per capita)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "annual CO₂ emissions": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "gdp_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GdpPerCapita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gdp per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GdpPerCapita": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "gdp_per_capita.code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GdpPerCapita",
+			          "ConceptualProperty": "Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "gdp_per_capita.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GdpPerCapita",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "gdp_per_capita.GDP_per_capita_PPP_constant_2021_international_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GdpPerCapita",
+			          "ConceptualProperty": "GDP per capita, PPP (constant 2021 international $)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GDP per capita, PPP (constant 2021 international $)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GDP per capita, PPP": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "regions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "region.code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "regions",
+			          "ConceptualProperty": "Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "region.world_regions_according_to_OWID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "regions",
+			          "ConceptualProperty": "World regions according to OWID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "world regions according to OWID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "world region according to OWID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "worldwide emission": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WorldwideEmissions": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "emission": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "worldwide production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "worldwide emanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "worldwide secretion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "worldwide radiation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "secretion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "radiation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worldwide release": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worldwide discharge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "worldwide_emission.annual_CO_emission": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "Annual CO₂ emissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "annual CO₂ emission": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "annual co₂ production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ emanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ secretion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ radiation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "annual co₂ release": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "annual co₂ discharge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission.worldwide_emission_to_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "WorldwideEmissionsToDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "worldwide emission to date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WorldwideEmissionsToDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "emission": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "worldwide emission to moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "worldwide emission to period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "worldwide production to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "worldwide emanation to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "worldwide secretion to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "worldwide radiation to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "worldwide release to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "worldwide discharge to date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission.index": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "Index"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "index": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "manifestation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission.previous_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "PreviousYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previous year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PreviousYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "previous yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission.annual_change": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "AnnualChange"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "annual change": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnnualChange": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "annual alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual variation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual revolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual conversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual amendment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission.WorldPop_population_historical": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "WorldPop.Population (historical)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "WorldPop.population (historical)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WorldPop.population": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "worldwide_emission.world_emission_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldwideEmissions",
+			          "ConceptualProperty": "WorldEmissionsPerCapita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "world emission per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WorldEmissionsPerCapita": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "world production per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "world emanation per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "world secretion per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "world radiation per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "world release per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "world discharge per capita": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "world_pop": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldPop"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "world pop": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WorldPop": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "pop": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "modern": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "simple": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contemporary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "world explosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "explosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "world bang": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "world crack": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "world report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "world snap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "bang": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "world_pop.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldPop",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "world_pop.population_historical": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "WorldPop",
+			          "ConceptualProperty": "Population (historical)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "population (historical)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "population": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "DimYears_and_period": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DimYears and period": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimYear and period": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "DimYears": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "DimYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "DimYears period": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "DimYear period": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "dimyear and era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "dimyear and epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "dimyear era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "dimyear epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "dimyear and age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "dimyear and stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "dimyear and phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "dimyear age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "dimyear stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "dimyear phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "DimYears_and_period.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "Adjust Years": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "DimYears_and_period.century": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods",
+			          "ConceptualProperty": "Century"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "century": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "DimYears_and_period.period": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods",
+			          "ConceptualProperty": "Period"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "period": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "DimYears_and_period.time_period": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods",
+			          "Hierarchy": "Time Periods"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "time period": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "duration period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "interval period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "moment period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "timetable period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "time era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "time epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "time age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "time stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "time phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "DimYears_and_period.time_period.century": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods",
+			          "Hierarchy": "Time Periods",
+			          "HierarchyLevel": "Century"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "century": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "DimYears_and_period.time_period.period": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods",
+			          "Hierarchy": "Time Periods",
+			          "HierarchyLevel": "Period"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "period": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "DimYears_and_period.time_period.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYears and periods",
+			          "Hierarchy": "Time Periods",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    }
+			  },
+			  "Relationships": {
+			    "dim_country_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "DimCountries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        },
+			        "dim_country.country": {
+			          "Target": {
+			            "Entity": "dim_country.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_country.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_country"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_country.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_countries_are_in_countries"
+			        }
+			      ]
+			    },
+			    "dim_country_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "DimCountries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        },
+			        "dim_country.region": {
+			          "Target": {
+			            "Entity": "dim_country.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_country.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_country"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_country.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_countries_are_in_regions"
+			        }
+			      ]
+			    },
+			    "emission_by_country_in_dim_country": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsByCountry"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_by_country": {
+			          "Target": {
+			            "Entity": "emission_by_country"
+			          }
+			        },
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "emission_by_country"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_by_country_are_in_dim_countries"
+			        }
+			      ]
+			    },
+			    "emission_per_capita_in_dim_country": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_per_capita": {
+			          "Target": {
+			            "Entity": "emission_per_capita"
+			          }
+			        },
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "emission_per_capita"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_per_capita_are_in_dim_countries"
+			        }
+			      ]
+			    },
+			    "gdp_per_capita_in_dim_country": {
+			      "Binding": {
+			        "ConceptualEntity": "GdpPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gdp_per_capita": {
+			          "Target": {
+			            "Entity": "gdp_per_capita"
+			          }
+			        },
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "gdp_per_capita"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gdp_per_capita_are_in_dim_countries"
+			        }
+			      ]
+			    },
+			    "emission_by_country_has_annual_CO_emission": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsByCountry"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_by_country": {
+			          "Target": {
+			            "Entity": "emission_by_country"
+			          }
+			        },
+			        "emission_by_country.annual_CO_emission": {
+			          "Target": {
+			            "Entity": "emission_by_country.annual_CO_emission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_by_country"
+			            },
+			            "Object": {
+			              "Role": "emission_by_country.annual_CO_emission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_by_country_have_annual_CO_emissions"
+			        }
+			      ]
+			    },
+			    "emission_by_country_has_emission_to_date": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsByCountry"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_by_country": {
+			          "Target": {
+			            "Entity": "emission_by_country"
+			          }
+			        },
+			        "emission_by_country.emission_to_date": {
+			          "Target": {
+			            "Entity": "emission_by_country.emission_to_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_by_country"
+			            },
+			            "Object": {
+			              "Role": "emission_by_country.emission_to_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_by_country_have_emission_to_date"
+			        }
+			      ]
+			    },
+			    "emission_by_country_has_ranked_total": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsByCountry"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_by_country": {
+			          "Target": {
+			            "Entity": "emission_by_country"
+			          }
+			        },
+			        "emission_by_country.ranked_total": {
+			          "Target": {
+			            "Entity": "emission_by_country.ranked_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_by_country"
+			            },
+			            "Object": {
+			              "Role": "emission_by_country.ranked_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_by_country_have_ranked_total"
+			        }
+			      ]
+			    },
+			    "dim_country_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "DimCountries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        },
+			        "dim_country.country": {
+			          "Target": {
+			            "Entity": "dim_country.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_country"
+			            },
+			            "Object": {
+			              "Role": "dim_country.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_countries_have_countries"
+			        }
+			      ]
+			    },
+			    "dim_country_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "DimCountries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        },
+			        "dim_country.region": {
+			          "Target": {
+			            "Entity": "dim_country.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_country"
+			            },
+			            "Object": {
+			              "Role": "dim_country.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_countries_have_regions"
+			        }
+			      ]
+			    },
+			    "emission_per_capita_has_annual_CO_emissions_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_per_capita": {
+			          "Target": {
+			            "Entity": "emission_per_capita"
+			          }
+			        },
+			        "emission_per_capita.annual_CO_emissions_per_capita": {
+			          "Target": {
+			            "Entity": "emission_per_capita.annual_CO_emissions_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_per_capita"
+			            },
+			            "Object": {
+			              "Role": "emission_per_capita.annual_CO_emissions_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_per_capita_have_annual_CO_emissions_per_capita"
+			        }
+			      ]
+			    },
+			    "gdp_per_capita_has_GDP_per_capita_PPP_constant_2021_international_": {
+			      "Binding": {
+			        "ConceptualEntity": "GdpPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gdp_per_capita": {
+			          "Target": {
+			            "Entity": "gdp_per_capita"
+			          }
+			        },
+			        "gdp_per_capita.GDP_per_capita_PPP_constant_2021_international_": {
+			          "Target": {
+			            "Entity": "gdp_per_capita.GDP_per_capita_PPP_constant_2021_international_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gdp_per_capita"
+			            },
+			            "Object": {
+			              "Role": "gdp_per_capita.GDP_per_capita_PPP_constant_2021_international_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gdp_per_capita_have_GDP_per_capita_PPP_constant_2021_international_"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.year": {
+			          "Target": {
+			            "Entity": "worldwide_emission.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_years"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_annual_CO_emission": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.annual_CO_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission.annual_CO_emission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.annual_CO_emission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_annual_CO_emissions"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_worldwide_emission_to_date": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.worldwide_emission_to_date": {
+			          "Target": {
+			            "Entity": "worldwide_emission.worldwide_emission_to_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.worldwide_emission_to_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_worldwide_emission_to_date"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_index": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.index": {
+			          "Target": {
+			            "Entity": "worldwide_emission.index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_indices"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_previous_year": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.previous_year": {
+			          "Target": {
+			            "Entity": "worldwide_emission.previous_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.previous_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_previous_years"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_annual_change": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.annual_change": {
+			          "Target": {
+			            "Entity": "worldwide_emission.annual_change"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.annual_change"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_annual_changes"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_WorldPop_population_historical": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.WorldPop_population_historical": {
+			          "Target": {
+			            "Entity": "worldwide_emission.WorldPop_population_historical"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.WorldPop_population_historical"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_WorldPop_population_historical"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_world_emission_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "worldwide_emission.world_emission_per_capita": {
+			          "Target": {
+			            "Entity": "worldwide_emission.world_emission_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission.world_emission_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_world_emission_per_capita"
+			        }
+			      ]
+			    },
+			    "world_pop_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldPop"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "world_pop": {
+			          "Target": {
+			            "Entity": "world_pop"
+			          }
+			        },
+			        "world_pop.year": {
+			          "Target": {
+			            "Entity": "world_pop.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "world_pop"
+			            },
+			            "Object": {
+			              "Role": "world_pop.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "world_pops_have_years"
+			        }
+			      ]
+			    },
+			    "world_pop_has_population_historical": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldPop"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "world_pop": {
+			          "Target": {
+			            "Entity": "world_pop"
+			          }
+			        },
+			        "world_pop.population_historical": {
+			          "Target": {
+			            "Entity": "world_pop.population_historical"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "world_pop"
+			            },
+			            "Object": {
+			              "Role": "world_pop.population_historical"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "world_pops_have_population_historical"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          }
+			        },
+			        "DimYears_and_period.year": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_years"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_has_century": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          }
+			        },
+			        "DimYears_and_period.century": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.century"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period.century"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_centuries"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_has_period": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          }
+			        },
+			        "DimYears_and_period.period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.period"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period.period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_periods"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_has_time_period": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          }
+			        },
+			        "DimYears_and_period.time_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.time_period"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period.time_period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_time_periods"
+			        }
+			      ]
+			    },
+			    "emission_by_country_has_dim_country": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsByCountry"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_by_country": {
+			          "Target": {
+			            "Entity": "emission_by_country"
+			          }
+			        },
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_by_country"
+			            },
+			            "Object": {
+			              "Role": "dim_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_by_country_have_dim_countries"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_country"
+			            },
+			            "Object": {
+			              "Role": "emission_by_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_countries_have_emission_by_country"
+			        }
+			      ]
+			    },
+			    "emission_by_country_has_DimYears_and_period": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsByCountry"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_by_country": {
+			          "Target": {
+			            "Entity": "emission_by_country"
+			          }
+			        },
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          },
+			          "Nouns": [
+			            {
+			              "year": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_by_country"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_by_country_have_DimYears_and_periods"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "emission_by_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_emission_by_country"
+			        }
+			      ]
+			    },
+			    "emission_per_capita_has_dim_country": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_per_capita": {
+			          "Target": {
+			            "Entity": "emission_per_capita"
+			          }
+			        },
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_per_capita"
+			            },
+			            "Object": {
+			              "Role": "dim_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_per_capita_have_dim_countries"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_country"
+			            },
+			            "Object": {
+			              "Role": "emission_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_countries_have_emission_per_capita"
+			        }
+			      ]
+			    },
+			    "emission_per_capita_has_DimYears_and_period": {
+			      "Binding": {
+			        "ConceptualEntity": "EmissionsPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "emission_per_capita": {
+			          "Target": {
+			            "Entity": "emission_per_capita"
+			          }
+			        },
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          },
+			          "Nouns": [
+			            {
+			              "year": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "emission_per_capita"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emission_per_capita_have_DimYears_and_periods"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "emission_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_emission_per_capita"
+			        }
+			      ]
+			    },
+			    "gdp_per_capita_has_dim_country": {
+			      "Binding": {
+			        "ConceptualEntity": "GdpPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gdp_per_capita": {
+			          "Target": {
+			            "Entity": "gdp_per_capita"
+			          }
+			        },
+			        "dim_country": {
+			          "Target": {
+			            "Entity": "dim_country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gdp_per_capita"
+			            },
+			            "Object": {
+			              "Role": "dim_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gdp_per_capita_have_dim_countries"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_country"
+			            },
+			            "Object": {
+			              "Role": "gdp_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_countries_have_gdp_per_capita"
+			        }
+			      ]
+			    },
+			    "gdp_per_capita_has_DimYears_and_period": {
+			      "Binding": {
+			        "ConceptualEntity": "GdpPerCapita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gdp_per_capita": {
+			          "Target": {
+			            "Entity": "gdp_per_capita"
+			          }
+			        },
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          },
+			          "Nouns": [
+			            {
+			              "year": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gdp_per_capita"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gdp_per_capita_have_DimYears_and_periods"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "gdp_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_gdp_per_capita"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_world_pop": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "world_pop": {
+			          "Target": {
+			            "Entity": "world_pop"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "world_pop"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_world_pops"
+			        }
+			      ]
+			    },
+			    "worldwide_emission_has_DimYears_and_period": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldwideEmissions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        },
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "worldwide_emission"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "worldwide_emissions_have_DimYears_and_periods"
+			        }
+			      ]
+			    },
+			    "world_pop_has_worldwide_emission": {
+			      "Binding": {
+			        "ConceptualEntity": "WorldPop"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "world_pop": {
+			          "Target": {
+			            "Entity": "world_pop"
+			          }
+			        },
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "world_pop"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "world_pops_have_worldwide_emissions"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_has_worldwide_emission": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period"
+			          }
+			        },
+			        "worldwide_emission": {
+			          "Target": {
+			            "Entity": "worldwide_emission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period"
+			            },
+			            "Object": {
+			              "Role": "worldwide_emission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DimYears_and_periods_have_worldwide_emissions"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_time_period_has_century": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period.time_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.time_period"
+			          }
+			        },
+			        "DimYears_and_period.time_period.century": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.time_period.century"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period.time_period"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period.time_period.century"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "time_periods_have_centuries"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_time_period_has_period": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period.time_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.time_period"
+			          }
+			        },
+			        "DimYears_and_period.time_period.period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.time_period.period"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period.time_period"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period.time_period.period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "time_periods_have_periods"
+			        }
+			      ]
+			    },
+			    "DimYears_and_period_time_period_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYears and periods"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DimYears_and_period.time_period": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.time_period"
+			          }
+			        },
+			        "DimYears_and_period.time_period.year": {
+			          "Target": {
+			            "Entity": "DimYears_and_period.time_period.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DimYears_and_period.time_period"
+			            },
+			            "Object": {
+			              "Role": "DimYears_and_period.time_period.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "time_periods_have_years"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,45 @@
+table regions
+	isHidden
+	lineageTag: a987b15b-1c4a-48f5-824d-cbe2da620203
+
+	column Code
+		dataType: string
+		isHidden
+		lineageTag: ef4edd2b-0967-4f2a-b71c-ed771503dd8b
+		summarizeBy: none
+		sourceColumn: Code
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'World regions according to OWID'
+		dataType: string
+		isHidden
+		lineageTag: 9e5b035c-e3e4-4600-b31e-a55480da2efd
+		summarizeBy: none
+		sourceColumn: World regions according to OWID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition regions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\gjeri\Desktop\PowerBI Projects\Emissions analysis\gdp-per-capita-worldbank\gdp-per-capita-worldbank.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}, {"GDP per capita, PPP (constant 2021 international $)", type number}, {"World regions according to OWID", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Year", "GDP per capita, PPP (constant 2021 international $)"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Removed Columns", each [World regions according to OWID] <> null and [World regions according to OWID] <> ""),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Filtered Rows",{"Entity"})
+				in
+				    #"Removed Columns1"
+
+	changedProperty = IsHidden
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

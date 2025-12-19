@@ -1,0 +1,95 @@
+{
+  "name": "Theme EJ 1",
+  "dataColors": [
+    "#C7EAE4",
+    "#AA9ABA",
+    "#2274AB",
+    "#C7EAE4",
+    "#71AFE2",
+    "#8D6FD1",
+    "#EE9E64",
+    "#95DABB"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#C7EAE4",
+  "tableAccent": "#0F1934",
+  "textClasses": {
+    "label": {
+      "color": "#C7EAE4",
+      "fontFace": "Calibri",
+      "fontSize": 14
+    },
+    "title": {
+      "color": "#C7EAE4",
+      "fontFace": "Calibri",
+      "fontSize": 18
+    },
+    "callout": {
+      "color": "#C7EAE4",
+      "fontFace": "Calibri"
+    },
+    "header": {
+      "color": "#AA9ABA",
+      "fontFace": "Calibri",
+      "fontSize": 14
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#202030"
+              }
+            },
+            "transparency": 100
+          }
+        ],
+        "visualTooltip": [
+          {
+            "themedTitleFontColor": {
+              "solid": {
+                "color": "#C7EAE4"
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "themedTitleFontColor": {
+              "solid": {
+                "color": "#C7EAE4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#202030"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#202030"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "foregroundNeutralSecondary": "#AA9ABA"
+}

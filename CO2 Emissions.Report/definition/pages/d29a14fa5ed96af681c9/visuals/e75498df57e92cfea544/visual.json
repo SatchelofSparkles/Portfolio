@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "e75498df57e92cfea544",
+  "position": {
+    "x": 178.96656534954408,
+    "y": 47.659574468085111,
+    "z": 9000,
+    "height": 61.276595744680854,
+    "width": 175.07598784194531,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DimYears and periods"
+                        }
+                      },
+                      "Property": "Year"
+                    }
+                  },
+                  "Function": 4
+                }
+              },
+              "queryRef": "CountNonNull(DimYears and periods.Year)",
+              "nativeQueryRef": " ",
+              "displayName": " "
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "DimYears and periods"
+                      }
+                    },
+                    "Property": "Year"
+                  }
+                },
+                "Function": 4
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

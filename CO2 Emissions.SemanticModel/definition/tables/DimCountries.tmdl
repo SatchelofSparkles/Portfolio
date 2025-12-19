@@ -1,0 +1,51 @@
+table DimCountries
+	lineageTag: 7e9dd584-b4c2-4104-b0b4-8000ca552e51
+
+	column Country
+		dataType: string
+		lineageTag: 96e9c957-148e-4ff2-9e7a-3af64ceef303
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Code
+		dataType: string
+		isHidden
+		lineageTag: 46a8348d-152f-459b-82cc-66020f4a3a72
+		summarizeBy: none
+		sourceColumn: Code
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 0daca1b5-2712-4248-8217-059a8f09fe97
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimCountries = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\gjeri\Desktop\PowerBI Projects\Emissions analysis\annual-co2-emissions-per-country\annual-co2-emissions-per-country.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}, {"Annual CO₂ emissions", type number}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([Code] <> null and [Code] <> "" and [Code] <> "OWID_WRL")),
+				    #"Removed Columns" = Table.RemoveColumns(#"Filtered Rows",{"Year", "Annual CO₂ emissions"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Columns", {"Code"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Removed Duplicates",{{"Entity", "Country"}}),
+				    #"Merged Queries" = Table.NestedJoin(#"Renamed Columns", {"Code"}, regions, {"Code"}, "regions", JoinKind.LeftOuter),
+				    #"Expanded regions" = Table.ExpandTableColumn(#"Merged Queries", "regions", {"World regions according to OWID"}, {"regions.World regions according to OWID"}),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Expanded regions",{{"regions.World regions according to OWID", "Region"}})
+				in
+				    #"Renamed Columns1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,36 @@
+relationship 3b9e4a33-c909-c292-898d-e813a39cd8be
+	fromColumn: EmissionsByCountry.Code
+	toColumn: DimCountries.Code
+
+relationship 94afc96d-e7b4-ef8b-8e12-b6acfcb54bb2
+	fromColumn: GdpPerCapita.Code
+	toColumn: DimCountries.Code
+
+relationship ab1ad5d4-551c-406c-db50-4432fcff5a40
+	fromColumn: EmissionsPerCapita.Code
+	toColumn: DimCountries.Code
+
+relationship AutoDetected_bf0b7795-8823-4a51-9b3b-79e32d600387
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: WorldPop.Year
+	toColumn: WorldwideEmissions.Year
+
+relationship 9ff5f712-99f6-9ab5-89d5-256ae5c490b2
+	fromColumn: EmissionsByCountry.Year
+	toColumn: 'DimYears and periods'.Year
+
+relationship b220ffb1-8f72-5e49-607c-32afc68f2967
+	fromColumn: GdpPerCapita.Year
+	toColumn: 'DimYears and periods'.Year
+
+relationship fb808295-aa39-f95e-a69a-3abddbbb4459
+	fromColumn: EmissionsPerCapita.Year
+	toColumn: 'DimYears and periods'.Year
+
+relationship 3de6a87d-ea4e-7649-2596-3191b4de1345
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'DimYears and periods'.Year
+	toColumn: WorldwideEmissions.Year
+

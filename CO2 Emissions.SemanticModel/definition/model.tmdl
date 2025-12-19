@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-GB
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["EmissionsByCountry","DimCountries","EmissionsPerCapita","GdpPerCapita","regions","WorldwideEmissions","WorldPop","DimYears and periods"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table EmissionsByCountry
+ref table DimCountries
+ref table EmissionsPerCapita
+ref table GdpPerCapita
+ref table regions
+ref table WorldwideEmissions
+ref table WorldPop
+ref table 'DimYears and periods'
+
+ref cultureInfo en-US
+

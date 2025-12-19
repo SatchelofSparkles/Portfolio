@@ -1,0 +1,105 @@
+table WorldwideEmissions
+	lineageTag: 25218946-f02e-4f53-9c78-c9d619d9fe9f
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 40f7d48a-f155-461f-be09-bfbd9bff52ca
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Annual CO₂ emissions'
+		dataType: double
+		lineageTag: 6b79ca5e-956a-47a5-8c62-fc6eb4e7913a
+		summarizeBy: sum
+		sourceColumn: Annual CO₂ emissions
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column WorldwideEmissionsToDate =
+			var CurrentYear = WorldwideEmissions[Year]
+			                            var FilteredTable = FILTER(WorldwideEmissions, WorldwideEmissions[Year] <= CurrentYear)
+			
+			                            return
+			
+			                            Calculate(Sum(WorldwideEmissions[Annual CO₂ emissions]),FilteredTable)
+		lineageTag: 2f18d99e-ac56-4ff2-9d89-6d3f62f32cc1
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Index
+		dataType: int64
+		formatString: 0
+		lineageTag: afa22b1e-b6ba-4cac-bbbf-90f8663583b3
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+	column PreviousYear
+		dataType: string
+		lineageTag: 3467b2bf-149b-4239-847b-60a62bc58724
+		summarizeBy: none
+		sourceColumn: PreviousYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnnualChange
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 895a4052-8ee5-420e-9752-58ccd6f0ab29
+		summarizeBy: sum
+		sourceColumn: AnnualChange
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'WorldPop.Population (historical)'
+		dataType: int64
+		formatString: 0
+		lineageTag: d5f8e03d-eba5-4762-b3e6-a5906655b38a
+		summarizeBy: sum
+		sourceColumn: WorldPop.Population (historical)
+
+		annotation SummarizationSetBy = Automatic
+
+	column WorldEmissionsPerCapita = (WorldwideEmissions[Annual CO₂ emissions]/WorldwideEmissions[WorldPop.Population (historical)])
+		lineageTag: 84473a72-833d-4eaa-95a6-ae41498bd7f5
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition WorldwideEmissions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\gjeri\Desktop\PowerBI Projects\Emissions analysis\annual-co2-emissions-per-country\annual-co2-emissions-per-country.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}, {"Annual CO₂ emissions", type number}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([Code] <> null and [Code] <> "" )),
+				    #"Removed Columns" = Table.RemoveColumns(#"Filtered Rows",{"Entity"}),
+				    #"Filtered Rows1" = Table.SelectRows(#"Removed Columns", each ([Code] = "OWID_WRL")),
+				    #"Added Index" = Table.AddIndexColumn(#"Filtered Rows1", "Index", 0, 1, Int64.Type),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Added Index",{"Code", "Index", "Year", "Annual CO₂ emissions"}),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Reordered Columns",{"Code"}),
+				    #"Added Custom" = Table.AddColumn(#"Removed Columns1", "PreviousYear", each try #"Added Index" { [Index] - 1 } [#"Annual CO₂ emissions"] otherwise null),
+				    #"Added Custom1" = Table.AddColumn(#"Added Custom", "AnnualChange", each try ([#"Annual CO₂ emissions"]/[PreviousYear])-1 otherwise null),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Added Custom1",{{"AnnualChange", Percentage.Type}}),
+				    #"Merged Queries" = Table.NestedJoin(#"Changed Type1", {"Year"}, WorldPop, {"Year"}, "WorldPop", JoinKind.LeftOuter),
+				    #"Expanded WorldPop" = Table.ExpandTableColumn(#"Merged Queries", "WorldPop", {"Population (historical)"}, {"WorldPop.Population (historical)"}),
+				    #"Sorted Rows" = Table.Sort(#"Expanded WorldPop",{{"Index", Order.Ascending}})
+				in
+				    #"Sorted Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
